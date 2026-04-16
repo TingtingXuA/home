@@ -1,6 +1,7 @@
 ---
 title: "CLIP: Accelerating Features Deployment for Programmable Switch"
 collection: publications
+category: manuscripts
 permalink: /publication/2023-01-01-CLIP-Accelerating-Features-Deployment-for-Programmable-Switch
 date: 2023-01-01
 venue: 'In the proceedings of IEEE INFOCOM 2023 - IEEE Conference on Computer Communications'
