@@ -1,7 +1,7 @@
 ---
 title: "Tuning Target Delay for RTT-based Congestion Control"
 collection: publications
-category: proceedings
+category: conferences
 permalink: /publication/2022-01-01-Tuning-Target-Delay-for-RTT-based-Congestion-Control
 date: 2022-01-01
 venue: 'In the proceedings of 2022 IEEE 30th International Conference on Network Protocols (ICNP)'

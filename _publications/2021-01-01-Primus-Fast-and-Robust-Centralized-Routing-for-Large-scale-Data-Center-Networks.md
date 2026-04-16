@@ -1,7 +1,7 @@
 ---
 title: "Primus: Fast and Robust Centralized Routing for Large-scale Data Center Networks"
 collection: publications
-category: proceedings
+category: conferences
 permalink: /publication/2021-01-01-Primus-Fast-and-Robust-Centralized-Routing-for-Large-scale-Data-Center-Networks
 date: 2021-01-01
 venue: 'In the proceedings of IEEE INFOCOM 2021 - IEEE Conference on Computer Communications'

@@ -1,7 +1,7 @@
 ---
 title: "CyberStar: Simple, Elastic and Cost-Effective Network Functions Management in Cloud Network at Scale"
 collection: publications
-category: proceedings
+category: conferences
 permalink: /publication/2024-07-01-CyberStar-Simple-Elastic-and-Cost-Effective-Network-Functions-Management-in-Cloud-Network-at-Scale
 date: 2024-07-01
 venue: 'In the proceedings of 2024 USENIX Annual Technical Conference (USENIX ATC 24)'
