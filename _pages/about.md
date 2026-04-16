@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage! I am Xu Tingting, currently a Postdoc Researcher in Hong Kong University of Science and Technology iSING Lab, worked with [Prof. Kai Chen](https://cse.hkust.edu.hk/~kaichen/). I received my Ph.D. in school of computer from Nanjing University, supervised by [Prof. Baoliu Ye](cs.nju.edu.cn/yebl) and [Prof. Xiaoliang Wang](https://cs.nju.edu.cn/wangxiaoliang/) in DISLAB in 2025. Before that, I received my B.E. in School of Computer and Science from Hunan University (Outstanding Graduate) in 2019. Feel free to reach out if you are interested in my work.
+Welcome to my homepage! I am Xu Tingting, currently a Postdoc Researcher in Hong Kong University of Science and Technology iSING Lab, worked with [Prof. Kai Chen](https://cse.hkust.edu.hk/~kaichen/). I received my Ph.D. in school of computer from Nanjing University, supervised by [Prof. Baoliu Ye](https://cs.nju.edu.cn/yebl) and [Prof. Xiaoliang Wang](https://cs.nju.edu.cn/wangxiaoliang/) in DISLAB in 2025. Before that, I received my B.E. in School of Computer and Science from Hunan University (Outstanding Graduate) in 2019. Feel free to reach out if you are interested in my work.
 
 News
 ======

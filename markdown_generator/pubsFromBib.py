@@ -49,6 +49,8 @@ html_escape_table = {
     "'": "&apos;"
     }
 
+me_author = ["Tingting Xu"] #todo: add functionality to highlight specific authors in the citation, e.g. primary author
+
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
@@ -97,10 +99,15 @@ for pubsource in publist:
 
             #Build Citation from text
             citation = ""
+            authorlist = ""
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                if author.first_names[0]+" "+author.last_names[0] in me_author:
+                    authorlist = authorlist+" **"+author.first_names[0]+" "+author.last_names[0]+"**, "
+                else:
+                    authorlist = authorlist+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -134,23 +141,24 @@ for pubsource in publist:
 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
+            md += "\nauthorlist: '" + html_escape(authorlist[:-2]) + "'"
+            
             url = False
             if "url" in b.keys():
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
-                    url = True
+                url = True
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
 
-            
             ## Markdown description for individual page
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md += "\n[Access paper](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 

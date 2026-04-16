@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 - Post-doctoral Fellow @ Computer Science & Engineering, HKUST, (April. 2026 - Present)
-- Visiting Reasearcher @ National University of Singapore, (May. 2024 – May. 2025)
+- Visiting Reasearcher @ School of Computer, National University of Singapore, (May. 2024 – May. 2025)
 - Research Intern @ Ali Cloud (April. 2020 – Feburary. 2021)
 - Daily Intern @ NFVGroup, TEG, Tencent  (October. 2020 – Feburary. 2021)
 

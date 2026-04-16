@@ -268,6 +268,7 @@ def parse_publications(pub_dir):
             pub_entry = {
                 "name": front_matter.get('title', ''),
                 "publisher": front_matter.get('venue', ''),
+                "authorlist": front_matter.get('authorlist', ''),
                 "releaseDate": front_matter.get('date', ''),
                 "website": front_matter.get('paperurl', ''),
                 "summary": front_matter.get('excerpt', '')
