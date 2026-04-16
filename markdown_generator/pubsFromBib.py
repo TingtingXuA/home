@@ -117,10 +117,10 @@ for pubsource in publist:
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"] + "\n"
 
-            if publist[pubsource]["venuekey"] is "journal":
+            if publist[pubsource]["venuekey"] == "journal":
                 md += """category: manuscripts"""
             else:
-                md += """category: proceedings"""
+                md += """category: conferences"""
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
