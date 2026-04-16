@@ -115,7 +115,12 @@ for pubsource in publist:
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
-            md += """collection: """ +  publist[pubsource]["collection"]["name"]
+            md += """collection: """ +  publist[pubsource]["collection"]["name"] + "\n"
+
+            if publist[pubsource]["venuekey"] is "journal":
+                md += """category: manuscripts"""
+            else:
+                md += """category: proceedings"""
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             

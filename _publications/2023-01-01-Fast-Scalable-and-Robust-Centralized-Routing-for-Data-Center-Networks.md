@@ -1,6 +1,7 @@
 ---
 title: "Fast, Scalable and Robust Centralized Routing for Data Center Networks"
 collection: publications
+category: manuscripts
 permalink: /publication/2023-01-01-Fast-Scalable-and-Robust-Centralized-Routing-for-Data-Center-Networks
 date: 2023-01-01
 venue: 'IEEE/ACM Transactions on Networking'

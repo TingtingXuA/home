@@ -1,6 +1,7 @@
 ---
 title: "Accelerating Network Features Deployment With Heterogeneous Platforms"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-01-01-Accelerating-Network-Features-Deployment-With-Heterogeneous-Platforms
 date: 2025-01-01
 venue: 'IEEE Transactions on Networking'
