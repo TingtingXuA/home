@@ -9,6 +9,11 @@ redirect_from:
 
 Welcome to my pages! I am Xu Tingting, currently a Postdoc Researcher in Hong Kong University of Science and Technology iSING Lab, worked with [Prof. Kai Chen](https://cse.hkust.edu.hk/~kaichen/). I received my Ph.D. in school of computer from Nanjing University, supervised by [Prof. Baoliu Ye](cs.nju.edu.cn/yebl) and [Prof. Xiaoliang Wang](https://cs.nju.edu.cn/wangxiaoliang/) in DISLAB in 2025. Before that, I received my B.E. in School of Computer and Science from Hunan University (Outstanding Graduate) in 2019. Feel free to reach out if you are interested in my work.
 
+======
+News
+- Apr. 2026 Joined iSING lab normarlly.
+- Jul. 2025 start internship in iSING Lab.
+
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
